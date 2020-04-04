@@ -28,7 +28,44 @@ body {
 
 }
 
+nav {
+    position: relative;
+}
 
+.logo {
+    background-image: url('../images/logo.svg');
+    height: 32px;
+    width: 32px;
+    position: relative;
+}
+
+.hamburger-menu {
+    background-image: url('../images/icon-hamburger.svg');
+    height: 32px;
+    width: 32px;
+    position: relative;
+    left: 90%;
+    z-index: 100;
+}
+
+.nav-background {
+    background-color: var(--light-grayish-blue);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    height: 800px;
+    width: 100%;
+    border-bottom-left-radius: 25%;
+}
+
+.nav-image {
+    background-image: url('../images/illustration-devices.svg');
+    width: 960px;
+    height: 464px;
+    top: 100px;
+    position: relative;
+}
 
 
 
